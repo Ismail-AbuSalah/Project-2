@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;   */
+}
+
+header{
+    background-color: cadetblue;
+    width: 98%;
+    height: 56px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+i{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.logo{
+    margin-left: 10px;
+    height: 40px;
+    width: 15%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo i:nth-child(2){
+    margin-left: 30px;
+    
+}
+
+.icons{
+    margin-right: 10px;
+    height: 40px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i::before{
+    padding: 5%;
+    display: inline-block
+}
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 40%;
+}
+
+.search i{
+    border: 2px solid black;
+    padding: 0 10px 0 10px;
+}
+
+.search input{
+    width: 100%;
+}
