@@ -1,6 +1,6 @@
-const list = $(`.list`);
+const list = $(".list");
 
-const videoTitle = $(`.title`);
+const videoTitle = $(".title");
 
 videoTitle.text(`${videos[0].title}`);
 
@@ -12,8 +12,10 @@ videos.forEach ((video) => {
     list.append(more);  
     more.click( () => {
         videoTitle.text(`${video.title}`);
+        more.css("display","none")
     })
     more.click( () => {
-        frame.attr('src',`https://www.youtube.com/embed/${video.id}`);
+        frame.attr(`src`,`https://www.youtube.com/embed/${video.id}`);
     })
+    
 });
