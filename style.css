@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(255, 210, 168);
+    background-color: rgb(236, 194, 55);
 }
 
 header{
@@ -21,7 +21,7 @@ header{
 }
 
 main{
-    border: 2px solid rgb(151, 16, 61);
+    border: 2px solid rgb(3, 86, 93);
     width: 98%;
     height: auto;
     margin: 2% auto;
@@ -34,7 +34,7 @@ main{
 }
 
 .test{
-    border: 2px solid black;
+    border: 2px solid rgb(33, 126, 10);
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
@@ -47,7 +47,7 @@ main{
     height: 60px;
     font-size: 1.4rem;
     font-weight: bold;
-    background-color: rgb(219, 68, 118);
+    background-color: rgb(185, 107, 133);
 }
 .list{
     height: fit-content;
